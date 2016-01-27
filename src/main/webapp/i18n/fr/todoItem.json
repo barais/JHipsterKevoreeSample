@@ -1,0 +1,25 @@
+{
+    "diversescholApp": {
+        "todoItem" : {
+            "home": {
+                "title": "TodoItems",
+                "createLabel": "Créer un nouveau TodoItem",
+                "createOrEditLabel": "Créer ou éditer un TodoItem",
+                "search": "Search for TodoItem"
+            },
+            "created": "Un nouveau TodoItem a été créé avec l'identifiant {{ param }}",
+            "updated": "Le TodoItem avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le TodoItem avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le TodoItem {{ id }} ?"
+            },
+            "detail": {
+                "title": "TodoItem"
+            },
+            "content": "Content",
+            "endDate": "EndDate",
+            "done": "Done"
+        }
+    }
+}
+

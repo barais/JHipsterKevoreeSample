@@ -1,0 +1,6 @@
+//sample of KevScript configuration
+add node0 : JavaNode
+add node0.cmp1 : SpringStarter
+
+add sync : WSGroup
+attach node0 sync

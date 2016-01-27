@@ -1,0 +1,24 @@
+{
+    "diversescholApp": {
+        "todoItem" : {
+            "home": {
+                "title": "TodoItems",
+                "createLabel": "Create a new TodoItem",
+                "createOrEditLabel": "Create or edit a TodoItem",
+                "search": "Search for TodoItem"
+            },
+            "created": "A new TodoItem is created with identifier {{ param }}",
+            "updated": "A TodoItem is updated with identifier {{ param }}",
+            "deleted": "A TodoItem is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete TodoItem {{ id }}?"
+            },
+            "detail": {
+                "title": "TodoItem"
+            },
+            "content": "Content",
+            "endDate": "EndDate",
+            "done": "Done"
+        }
+    }
+}
