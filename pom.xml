@@ -127,8 +127,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- The HikariCP Java Agent is disabled by default, as it is experimental 
-			<dependency> <groupId>com.zaxxer</groupId> <artifactId>HikariCP-agent</artifactId> 
+        <!-- The HikariCP Java Agent is disabled by default, as it is experimental
+			<dependency> <groupId>com.zaxxer</groupId> <artifactId>HikariCP-agent</artifactId>
 			<version>${HikariCP.version}</version> </dependency> -->
         <dependency>
             <groupId>commons-io</groupId>
@@ -204,10 +204,10 @@
                     <artifactId>mapstruct</artifactId>
                     <groupId>org.mapstruct</groupId>
                 </exclusion>
-                <exclusion>
+                <!--                <exclusion>
                     <artifactId>classmate</artifactId>
                     <groupId>com.fasterxml</groupId>
-                </exclusion>
+                </exclusion>-->
             </exclusions>
         </dependency>
         <dependency>
@@ -233,8 +233,8 @@
                     <groupId>org.jboss.spec.javax.transaction</groupId>
                 </exclusion>
                 <exclusion>
-                	<artifactId>xml-apis</artifactId>
-                	<groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                    <groupId>xml-apis</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -421,8 +421,8 @@
         </resources>
         <pluginManagement>
             <plugins>
-                <!-- This plugin's configuration is used to store Eclipse m2e settings 
-					only. It has no influence on the Maven build itself. Remove when the m2e 
+                <!-- This plugin's configuration is used to store Eclipse m2e settings
+					only. It has no influence on the Maven build itself. Remove when the m2e
 					plugin can correctly bind to Maven lifecycle -->
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
@@ -482,7 +482,7 @@
                     <resultsFolder>target/gatling/results</resultsFolder>
                     <bodiesFolder>src/test/gatling/bodies</bodiesFolder>
                     <simulationsFolder>src/test/gatling/simulations</simulationsFolder>
-                    <!-- This will force Gatling to ask which simulation to run This is 
+                    <!-- This will force Gatling to ask which simulation to run This is
 						useful when you have multiple simulations -->
                     <simulationClass>*</simulationClass>
                 </configuration>
